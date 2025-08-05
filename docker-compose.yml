@@ -1,0 +1,9 @@
+version: "3.8"
+
+services:
+  app:
+    image: NAMA_USER_DOCKER_HUB/bun-hono-app:latest
+    container_name: bun-hono-app-prod
+    ports:
+      - "3000:3000"
+    restart: always
